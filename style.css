@@ -1,0 +1,213 @@
+body{
+    background-color: rgb(61, 51, 73);
+  }
+
+.hydra{
+    background: linear-gradient(to right, rgb(217, 213, 235), #c6b7d8);
+    background-clip: text;
+    color: transparent;
+    
+    
+}
+
+
+section .image{
+    border-radius: 120px;
+    border-bottom-left-radius: 240px;
+    border:8px solid rgb(192, 183, 232);
+    
+}
+@media (max-width:426px){
+    section .image{
+        
+        width: 100%;
+    }
+    section .img-boy{
+        width: 100%;
+        
+    }
+    section i{
+        display: none;
+    }
+    section button{
+      margin-bottom: 20px;
+    }
+}
+
+.colo{
+    color:rgb(219, 201, 235) ;
+}
+.colo:hover{
+    color:rgb(210, 182, 231) ;
+}
+
+.cont{
+    border-radius: 40px;
+    background-color: rgb(61, 51, 73);
+    border: 3px solid rgb(192, 183, 232);
+  }
+@media (max-width:424px){
+    .slider .ttext{
+        font-size: 15px;
+        font-weight: bold;
+        color:rgb(219, 201, 235);
+    }
+}
+#navcol form button{
+    background-color:  rgb(61, 51, 73);
+    height: 40px;
+    color: white;
+    border: 3px solid rgb(208, 187, 226);
+}
+#navcol .btn_join{
+    color:rgb(208, 187, 226);
+}
+
+#navcol .btn_join:hover{
+    background-color: rgb(219, 201, 235);
+    color:  rgb(61, 51, 73);
+}
+#navcol .btn_contact:hover{
+    border: 4px solid rgb(208, 187, 226);
+}
+
+/* step-2 */
+.line-1 {
+    height: 1.9px;
+    width: 140px;
+    background: linear-gradient(to top, #635b84 0%, rgb(165, 165, 189) 50%,#665c8b);
+  }
+
+/* image-boy */
+section .img-boy{
+border-bottom-right-radius: 250px;
+border-bottom-left-radius: 100px;
+border-top-left-radius: 250px;
+border-top-right-radius:100px ;
+}
+section .but-let{
+    width: 40%;
+    height: 50px;
+    border-radius: 50px;
+    background:linear-gradient(to right, #635b84 0%, rgb(165, 165, 189) 50%,#665c8b);
+}
+
+/* section circle number */
+.block {
+    
+    text-align: center;
+    vertical-align: middle;
+}
+.circle {
+    border: 10px solid rgba(13, 13, 13, 0.42);
+    background: linear-gradient(251.27deg, #C0B7E8 12.87%, #8176AF 89.33%);
+    border-radius: 200px;
+    color: white;
+    height: 150px;
+    font-weight: bold;
+    width: 150px;
+    display: table;
+    margin: 20px auto;
+    
+}
+.circle p {
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 60px;
+    color: black;
+}
+/* End Of section circle number */
+
+/* start section image girl*/
+
+section .img-back{
+    background-image:url("./images/girl.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 180px;
+    height: 300px;
+    
+    
+    
+    
+}
+
+/* End Of section image girl*/
+
+
+/* start section brand*/
+section .icon-prev {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+section .icon-nex {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+/*end of section brand*/
+
+
+/*start card border bottom*/
+
+section .border-bottom-card{
+    border-bottom:3px solid transparent; 
+    border-image: linear-gradient(to right,#211E2E 0%, rgb(150, 150, 183) 50%,#211E2E);
+    border-image-slice: 1;
+}
+
+/*end card border bottom*/
+
+/*section form*/
+section .contact{
+    background: radial-gradient(50% 50% at 50% 50%, #403A5F 0%, #211E2E 100%);
+}
+::placeholder{
+    padding: 15px;
+    color: white;
+}
+input{
+    background: radial-gradient(50% 50% at 50% 50%, #403A5F 0%, #211E2E 100%);
+    border: 2px solid white;
+    color: white;
+    padding: 10px;
+}
+/*End of section form*/
+
+/*border footer*/
+section .border-right{
+    border-right:3px solid transparent; 
+    border-image: linear-gradient(to bottom,rgb(61, 51, 73) 0%, rgb(150, 150, 183) 50%,rgb(61, 51, 73));
+    border-image-slice: 1;
+}
+section .join-border{
+    border-bottom:3px solid transparent; 
+    border-image: linear-gradient(to right, rgb(61, 51, 73) 0%, rgb(141, 141, 173) 50%,rgb(61, 51, 73));
+    border-image-slice: 1;
+}
+section .border-fo{
+    border-top:3px solid transparent; 
+    border-image: linear-gradient(to right,rgb(61, 51, 73) 0%, rgb(199, 199, 209) 50%,rgb(61, 51, 73));
+    border-image-slice: 1;
+}
+
+@media (max-width:767px){
+    section .bor-hide{
+        border: none;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
